@@ -1,7 +1,7 @@
 Este trabajo consiste en proceso de análisis completo utilizando datos de sensores industriales para desarrollar un sistema de **mantenimiento predictivo** básico.
 
 1.	Comprensión de los datos
-Se trabaja con un conjunto de datos simulado que representa la lectura de sensores en una planta industrial de producción de motores eléctricos.
+Se trabaja con un conjunto de datos simulado que representa la lectura de sensores en una planta industrial de producción de motores eléctricos (Datos_Mantenimiento_Predictivo.xlsx).
 Cada registro del dataset incluirá:
 - ID_Motor: identificador único del motor.
 - Temperatura_C: temperatura medida en grados Celsius.
@@ -34,13 +34,8 @@ Entrenamiento y evaluación de cada modelo utilizando métricas como:
 - F1-score.
 Comparación del rendimiento de los 4 modelos y selección del más adecuado según las métricas obtenidas.
   
-5.	Integración en Business Intelligence
-o	Crear un informe en Power BI:
-	Cargar los datos procesados.
-	Visualizar la distribución de fallos y las variables sensoriales más relevantes.
-	Incluir gráficos de barras, líneas o matrices de correlación que ayuden a interpretar el comportamiento de los sensores.
-	Presentar un resumen de la comparación de modelos de predicción.
-6.	Conclusiones y recomendaciones
-o	Redactar un breve informe final con las principales conclusiones extraídas.
-o	Justificar la elección del mejor modelo.
-o	Proponer acciones preventivas o de optimización basadas en los hallazgos del análisis.
+5.	Integración en Power BI (Dashboard_Mantenimento_Predictivo.pbix)
+- Carga de los datos procesados.
+- Visualización de la distribución de las variables sensoriales más relevantes.
+- Gráficos que ayudan a interpretar el comportamiento de los sensores.
+- Resumen de la comparación de modelos de predicción.
